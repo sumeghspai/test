@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+ import logo from './logo.svg';
 import './App.css';
+import React from "react";
+// import {FaBed} from "react-icons/fa";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+   <div className="hostelCard">
+    <div className="hostelImage">
+      <img src={logo} alt="hostel image"/>
     </div>
+  <div className="hostelName">
+      Bucker Hostel
+
+  </div>
+  <div className="owner">
+   Owner: mustafa
+  </div>
+ <div className="bed">
+  <div className="Bed1">
+      Number of one Bed : 2
+    </div>
+    <div className="Bed2">
+      Number of two Bed : 2
+    </div>
+    <div className="Bed3">
+      Number of three Bed : 2
+    </div>
+ </div>
+
+
+  </div>  
   );
 }
 
